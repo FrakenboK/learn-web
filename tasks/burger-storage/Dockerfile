@@ -4,6 +4,8 @@ COPY . /app
 
 WORKDIR /app
 
+RUN chmod +x entry.sh
+
 RUN python3 -m pip install -r requirements.txt
 
-ENTRYPOINT [ "python3", "main.py" ]
+ENTRYPOINT [ "./entry.sh" ]
