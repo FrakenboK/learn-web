@@ -4,4 +4,4 @@ services:
     ports:
       - 41337:41337
     environment:
-      - FLAG=mireactf{}
+      - FLAG=flag{}

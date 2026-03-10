@@ -5,7 +5,7 @@ services:
       context: internal-microservice
       dockerfile: ./deploy/Dockerfile
     environment:
-      - FLAG=mireactf{}
+      - FLAG=flag{}
       
   gateway-microservice:
     build:

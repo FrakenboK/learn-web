@@ -13,5 +13,5 @@ CREATE TABLE IF NOT EXISTS notes (
 
 INSERT INTO users (username, password) VALUES ('robert', 'bebebe_it_is_a_hash');
 INSERT INTO notes (user_id, message) VALUES (1, 'bebebe');
-INSERT INTO notes (user_id, message) VALUES (1, 'mireactf{}');
+INSERT INTO notes (user_id, message) VALUES (1, 'flag{}');
 INSERT INTO notes (user_id, message) VALUES (1, 'bababa');
